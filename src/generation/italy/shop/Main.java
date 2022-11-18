@@ -6,7 +6,7 @@ public class Main {
 		System.out.println(pr1);
 		System.out.println("-----------------");
 		
-		Smartphone sp1 = new Smartphone(2, "Galaxy 22", "Samsung", 999, 19, 123456789, 256);
+		Smartphone sp1 = new Smartphone(2, "Galaxy 22", "Samsung", 999, 19, "123456789", 256);
 		System.out.println(sp1);
 		System.out.println("-----------------");
 

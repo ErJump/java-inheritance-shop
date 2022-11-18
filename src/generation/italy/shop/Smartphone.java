@@ -1,20 +1,20 @@
 package generation.italy.shop;
 
 public class Smartphone extends Prodotto{
-	private int imeiCode;
+	private String imeiCode;
 	private int storage;
 	
-	Smartphone(int code, String name, String brand, double price, int iva, int imeiCode, int storage){
+	Smartphone(int code, String name, String brand, double price, int iva, String imeiCode, int storage){
 		super(code, name, brand, price, iva);
 		this.imeiCode = imeiCode;
 		this.storage = storage;
 	}
 
-	public int getImeiCode() {
+	public String getImeiCode() {
 		return imeiCode;
 	}
 
-	public void setImeiCode(int imeiCode) {
+	public void setImeiCode(String imeiCode) {
 		this.imeiCode = imeiCode;
 	}
 

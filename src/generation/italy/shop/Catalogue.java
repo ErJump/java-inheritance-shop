@@ -29,7 +29,7 @@ public class Catalogue {
             if (category.equals("smartphone")) {
             	
                 System.out.println("digitare codice imei prodotto: ");
-                int imeiCode = sc.nextInt();
+                String imeiCode = sc.next();
                 
                 System.out.println("digitare memoria prodotto: ");
                 int storage = sc.nextInt();
