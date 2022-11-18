@@ -8,5 +8,9 @@ public class Main {
 		
 		Smartphone sp1 = new Smartphone(2, "Galaxy 22", "Samsung", 999, 19, 123456789, 256);
 		System.out.println(sp1);
+		System.out.println("-----------------");
+
+		Television tv1 = new Television(3, "Gigantoschermus", "Sony", 1500, 22, 65, true);
+		System.out.println(tv1);
 	}
 }
