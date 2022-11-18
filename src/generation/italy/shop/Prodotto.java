@@ -58,12 +58,12 @@ public class Prodotto {
 	
 	@Override
 	public String toString() {
-		return "name: " + getName()
-				+ "\ncode: " + getCode()
+				return "code: " + getCode()
+				+ "\nname: " + getName()
 				+ "\nbrand: " + getBrand()
 				+ "\nprice: " + getPrice()
-				+ "$ \npercentage iva: " + getIva()
-				+ "\nprice with iva: " + getIvaPrice();
+				+ "$ \niva: " + getIva()
+				+ "% \nprice with iva: " + getIvaPrice() + "$";
 	}
 	
 }
