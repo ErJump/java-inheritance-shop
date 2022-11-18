@@ -12,5 +12,9 @@ public class Main {
 
 		Television tv1 = new Television(3, "Gigantoschermus", "Sony", 1500, 22, 65, true);
 		System.out.println(tv1);
+		System.out.println("-----------------");
+		
+		Headphones hp1 = new Headphones(4, "MK2 Studio", "AIAIAI", 300, 18, "black", false);
+		System.out.println(hp1);
 	}
 }
