@@ -54,7 +54,16 @@ public class Prodotto {
 	public double getIvaPrice() {
 		double ivaPrice = price + (price * iva / 100);
 		return ivaPrice;
-
+	}
+	
+	@Override
+	public String toString() {
+		return "name: " + getName()
+				+ "\ncode: " + getCode()
+				+ "\nbrand: " + getBrand()
+				+ "\nprice: " + getPrice()
+				+ "$ \npercentage iva: " + getIva()
+				+ "\nprice with iva: " + getIvaPrice();
 	}
 	
 }
